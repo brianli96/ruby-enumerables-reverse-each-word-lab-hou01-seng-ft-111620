@@ -5,5 +5,4 @@ def reverse_each_word(sentence)
     newArray.push(words.reverse)
   end
   newArray.join(" ")
-  return newArray
 end
