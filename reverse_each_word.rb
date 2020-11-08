@@ -10,5 +10,6 @@ end
 def reverse_each_word(sentence)
   newArray = ""
   parsedSentence = sentence.split(" ")
-  return parsedSentence.collect {|x| x.reverse + " " }
+  temp = parsedSentence.collect {|x| x.reverse + " " }
+  return temp.join("' '")
 end
