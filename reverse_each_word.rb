@@ -4,6 +4,5 @@ def reverse_each_word(sentence)
   parsedSentence.each do |words|
     newArray += words.reverse + " "
   end
-  newArray
-  return newArray
+  return newArray.strip
 end
